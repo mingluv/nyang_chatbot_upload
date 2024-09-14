@@ -12,6 +12,52 @@ body {
   background: #E3F2FD;
 }
 
+/* "고양이 상담소" 타이틀 스타일 */
+.landing-page {
+  display: flex;
+  flex-direction: column; /* 수직으로 정렬 */
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* 화면 높이의 80% 지점에 배치 */
+  text-align: center;
+}
+
+.title {
+  font-family: 'Fredoka One', cursive; /* 귀여운 글씨체 */
+  font-size: 8rem; /* 더 큰 글씨 */
+  color: #FF1493; /* 핫핑크 색상 */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 텍스트 그림자 */
+  margin: 0;
+}
+
+/* 고양이 이미지 스타일 */
+.cat-image-container {
+  margin-top: 20px; /* 타이틀과 이미지 사이 여백 */
+}
+
+.cat-image {
+  width: 400px; /* 이미지 너비 */
+  height: auto; /* 비율을 유지한 채 높이 조절 */
+  border-radius: 10px; /* 모서리를 둥글게 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 이미지에 그림자 추가 */
+}
+
+/* 설명 스타일 */
+.description {
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.description p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: center;
+}
+
+
 .chatbot-toggler {
   position: fixed;
   bottom: 30px;

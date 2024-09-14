@@ -4,9 +4,18 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="고양이 상담소에서 말하지 못한 고민과 상상력을 풀어놓을 수 있는 안전하고 따뜻한 공간입니다. 고민을 털어놓고 고양이에게 조용히 들어보세요!">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="고양이 상담소 Chatbot">
+  <meta property="og:description" content="고양이 상담소에서 고민과 상상력을 안전하게 풀어놓을 수 있는 공간">
+  <meta property="og:image" content="https://placekitten.com/400/300">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://yourwebsite.com">
+  
   <title>고양이 상담 Chatbot</title>
   <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Google Fonts Link For Icons -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -16,6 +25,22 @@
 </head>
 
 <body>
+
+  <section class="landing-page">
+    <h1 class="title">고양이 상담소😺</h1>
+    <!-- 고양이 이미지 추가 -->
+    <div class="cat-image-container">
+      <img src="https://placekitten.com/400/300" alt="고양이 선글라스를 쓴 귀여운 이미지" class="cat-image">
+    </div>
+    <div class="description">
+      <p>
+        친구나 가족에게 말하지 못한 고민들, 엉뚱한 상상력의 파편들, 누구에게도 털어놓지 못한 이야기들이 있나요? <br>
+        고양이 상담소는 그런 이야기들을 마음껏 풀어놓을 수 있는 안전하고 따뜻한 공간입니다. <br>
+        여러분의 이야기를 조용히 들어줄 고양이가 기다리고 있어요. 편안하게 상담받아 보세요!
+      </p>
+    </div>
+  </section>
+
   <button class="chatbot-toggler">
     <span class="material-symbols-rounded">mode_comment</span>
     <span class="material-symbols-outlined">close</span>
@@ -36,6 +61,22 @@
       <span id="send-btn" class="material-symbols-rounded">send</span>
     </div>
   </div>
+
+  <!-- JSON-LD 구조화 데이터 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "고양이 상담소",
+    "url": "https://yourwebsite.com",
+    "description": "고양이 상담소에서 고민과 상상력을 안전하게 풀어놓을 수 있는 공간입니다.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://yourwebsite.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 
 </body>
 
